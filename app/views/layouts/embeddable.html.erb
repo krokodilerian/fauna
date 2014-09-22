@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for?(:title) ? yield(:title) : "init Lab Fauna" %></title>
+    <%= stylesheet_link_tag "//fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext,cyrillic".html_safe, media: 'all', "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag "embeddable", media: "all", "data-turbolinks-track" => true %>
+
+
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+    <%= csrf_meta_tags %>
+  </head>
+  <body class="home blog">
+
+<%= yield %>
+
+  </body>
+</html>

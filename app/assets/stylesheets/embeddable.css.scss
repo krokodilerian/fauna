@@ -1,0 +1,13 @@
+body {
+    background-image: url(http://testing.initlab.org/wp-content/themes/initlanesis/images/grid.png)
+}
+.embeddable_presence li {
+    clear: both;
+    list-style: none;
+    padding: 10px;
+    .avatar {
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
