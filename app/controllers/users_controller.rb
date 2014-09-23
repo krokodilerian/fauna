@@ -7,6 +7,7 @@ class UsersController < ApplicationController
 
   def present_embeddable
     @users = Arp.present_users
+    response.headers.delete "X-Frame-Options"
     render layout: 'embeddable'
   end
 
