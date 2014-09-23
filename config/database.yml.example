@@ -14,10 +14,10 @@ test:
   pool: 5
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  database: fauna_production
+  database: fauna
   pool: 5
-  username: vloo
+  username: fauna
   password:
-  socket: /var/run/mysqld/mysqld.sock
+

@@ -7,8 +7,8 @@ gem 'rails', '~> 4.1.4'
 gem 'sass-rails', '~> 4.0.2'
 gem 'sprockets'
 
-# Use mysql as the database for Active Record
-gem 'mysql2'
+# Use postgresql as the database for Active Record
+gem 'pg'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
