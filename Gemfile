@@ -98,9 +98,6 @@ group :development do
   # Deploy to a puma  server
   gem 'capistrano3-puma'
 
-  # Use SQLite for development
-  gem 'sqlite3'
-
   # Goodies for prettier printing of records in the console
   gem 'awesome_print'
   gem 'hirb'
@@ -112,6 +109,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use SQLite for development
+gem 'sqlite3'
 
 group :test, :development do
   # RSpec for testing
